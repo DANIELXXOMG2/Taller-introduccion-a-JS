@@ -1,6 +1,6 @@
 document.write("Hello World");
-var peso = prompt("Ingrese un número");
-var altura = prompt("Ingrese la altura");
+var peso = prompt("Ingrese su peso en kilogramos ");
+var altura = prompt("Ingrese la altura en metros ");
 var categoria;
 console.log(peso, altura);
 peso = parseFloat(peso);
@@ -25,7 +25,7 @@ else if (imc < 40) {
     categoria = "Obesidad T2";
 }
 else {
-    categoria = "SobrePeso";
+    categoria = "Ingresa bien los datos mano";
 }
 
 alert("Tu IMC es " + imc.toFixed(2) + ". Categoría: " + categoria);
